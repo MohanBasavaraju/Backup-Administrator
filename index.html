@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Open_Source_ಮಗ - Backup Admin Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full top-0 z-60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+      <!-- Logo + Title -->
+      <div class="flex items-center space-x-3">
+        <img src="Images/new_symbol.jpg" alt="Logo" class="h-10 w-auto object-contain">
+        <h1 class="text-xl font-bold text-indigo-600 whitespace-nowrap">Open_Source_<l style="color: red;">ಮಗ</l></h1>
+      </div>
+      
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex space-x-6 text-sm font-medium">
+        <a href="#about" class="hover:text-indigo-600">About</a>
+        <a href="#skills" class="hover:text-indigo-600">Skills</a>
+        <a href="#tools" class="hover:text-indigo-600">Tools</a>
+        <a href="#certs" class="hover:text-indigo-600">Certifications</a>
+        <a href="#career" class="hover:text-indigo-600">Career</a>
+        <a href="#value" class="hover:text-indigo-600">Resources</a>
+        <a href="#docs" class="hover:text-indigo-600">Docs</a>
+        <a href="#youtube" class="hover:text-indigo-600">YouTube</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="menuBtn" class="md:hidden text-indigo-600 focus:outline-none">
+        ☰
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+      <a href="#about" class="block px-4 py-2 hover:bg-gray-100">About</a>
+      <a href="#skills" class="block px-4 py-2 hover:bg-gray-100">Skills</a>
+      <a href="#tools" class="block px-4 py-2 hover:bg-gray-100">Tools</a>
+      <a href="#certs" class="block px-4 py-2 hover:bg-gray-100">Certifications</a>
+      <a href="#career" class="block px-4 py-2 hover:bg-gray-100">Career</a>
+      <a href="#value" class="block px-4 py-2 hover:bg-gray-100">Resources</a>
+      <a href="#docs" class="block px-4 py-2 hover:bg-gray-100">Docs</a>
+      <a href="#youtube" class="block px-4 py-2 hover:bg-gray-100">YouTube</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="pt-28 pb-16 bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-center px-4">
+    <h2 class="text-3xl sm:text-4xl font-bold">Kickstart Your Career as a Backup Administrator</h2>
+    <p class="mt-4 text-base sm:text-lg max-w-2xl mx-auto">Learn the essentials, tools, and skills needed to excel in data backup and recovery.</p>
+   <div class="mt-8 max-w-3xl mx-auto">
+  <video class="w-full h-56 sm:h-72 rounded-xl shadow-lg" 
+         src="Images/4974708-hd_1920_1080_25fps.mp4" 
+         autoplay 
+         muted 
+         loop 
+         playsinline>
+  </video>
+</div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-7xl mx-auto px-4 sm:px-6 py-12 grid gap-10 md:grid-cols-2">
+    <div>
+      <h3 class="text-2xl font-semibold text-indigo-600">Who is a Backup Administrator?</h3>
+      <p class="mt-4">A Backup Administrator ensures the safety of company data by running backups, monitoring jobs, troubleshooting failures, and restoring data when required.</p>
+      <ul class="mt-4 list-disc ml-6 text-gray-700 text-sm sm:text-base">
+        <li>📌 <b>Day-to-day</b> : Monitoring, Troubleshooting, Recovery testing</li>
+        <li>💼 <b>Salary Range (India)</b> : ₹4 – ₹35 LPA</li>
+        <li>💼 <b>Salary Range (US/Global)</b> : $50,000 – $130,000 / year</li>
+        <li>🗂️ <b>Night Shift</b>  : Yes [24/7] Support</li>
+        <li>🛠️ <b>Type</b>  : Operation Support</li>
+        <li>🏢 <b>On-Site opportunity</b>  : 50%-50%</li>
+      </ul>
+    </div>
+    <div class="bg-white shadow rounded-lg p-6">
+      <h4 class="font-semibold">Daily Activities</h4>
+      <ul class="mt-3 text-gray-700 space-y-2 text-sm sm:text-base">
+        <li>✔ Monitor daily backups</li>
+        <li>✔ Resolve failed jobs</li>
+        <li>✔ Perform restores</li>
+        <li>✔ Upgrade & patch backup systems</li>
+        <li>✔ Documentation & reporting</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-gray-100 py-12 px-4 sm:px-6">
+    <div class="max-w-7xl mx-auto">
+      <h3 class="text-2xl font-semibold text-indigo-600">Technical Skills Needed</h3>
+      <div class="grid gap-10 md:grid-cols-2 mt-6">
+        <div>
+          <ul class="list-disc ml-6 space-y-2 text-sm sm:text-base">
+            <li>Operating Systems: Windows & Linux basics</li>
+            <li>Networking fundamentals (TCP/IP, DNS)</li>
+            <li>Storage concepts (SAN/NAS/DAS)</li>
+            <li>Backup strategies: Full, Incremental, Differential</li>
+            <li>Disaster Recovery knowledge</li>
+          </ul>
+        </div>
+        <div class="bg-white shadow rounded-lg p-6">
+          <h4 class="font-semibold mb-2">Programming Need</h4>
+          <p class="text-sm text-gray-700">Basic scripting is sufficient:</p>
+          <ul class="list-disc ml-6 text-gray-700 text-sm mt-2">
+            <li>Bash / Shell scripts (Linux)</li>
+            <li>PowerShell (Windows)</li>
+            <li>Python for automation (beginner level)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Tools Section -->
+  <section id="tools" class="py-12 max-w-7xl mx-auto px-4 sm:px-6">
+    <h3 class="text-2xl font-semibold text-indigo-600 mb-6">Top Backup Tools in the Market</h3>
+    <div class="h-96">
+      <canvas id="toolsChart"></canvas>
+    </div>
+  </section>
+
+  <!-- Certifications & Career Growth -->
+  <section id="certs" class="bg-gray-100 py-12 px-4 sm:px-6">
+    <div class="max-w-7xl mx-auto">
+      <h3 class="text-2xl font-semibold text-indigo-600">Certifications & Career Growth</h3>
+      <div class="grid md:grid-cols-2 gap-6 mt-6">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-semibold mb-2">Vendor-specific</h4>
+          <ul class="list-disc ml-6 text-sm space-y-1">
+            <li>Veritas Certified Specialist</li>
+            <li>Commvault Professional</li>
+            <li>Veeam Certified Engineer</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-semibold mb-2">Cloud & Generic IT</h4>
+          <ul class="list-disc ml-6 text-sm space-y-1">
+            <li>AWS Certified SysOps Administrator</li>
+            <li>Azure Administrator Associate</li>
+            <li>CompTIA Storage+</li>
+            <li>ITIL Foundation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Job Preparation -->
+<section id="career" class="py-12 px-4 sm:px-6">
+  <div class="max-w-7xl mx-auto">
+    <h3 class="text-2xl font-semibold text-indigo-600">Job Preparation</h3>
+    <div class="grid md:grid-cols-2 gap-6 mt-6">
+      
+      <!-- Left Card -->
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h4 class="font-semibold mb-2">What to Prepare</h4>
+        <ul class="space-y-3 text-sm sm:text-base">
+          <li class="flex items-center justify-between">
+            <span>Sample resumes for Backup Admin role</span>
+            <a href="#" target="_blank" class="bg-indigo-600 text-white px-3 py-1 rounded text-xs sm:text-sm hover:bg-indigo-700">Click Here</a>
+          </li>
+          <li class="flex items-center justify-between">
+            <span>Interview Q&A (technical & scenario-based)</span>
+            <a href="#" target="_blank" class="bg-indigo-600 text-white px-3 py-1 rounded text-xs sm:text-sm hover:bg-indigo-700">Click Here</a>
+          </li>
+          <li class="flex items-center justify-between">
+            <span>Key skills companies look for</span>
+            <a href="#" target="_blank" class="bg-indigo-600 text-white px-3 py-1 rounded text-xs sm:text-sm hover:bg-indigo-700">Click Here</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right Card -->
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h4 class="font-semibold mb-2">Salary Insights</h4>
+        <p class="text-sm">💼 India: ₹4 – ₹35 LPA per annum</p>
+        <p class="text-sm">💼 US/Global: $50k – $130,000k per year</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Additional Value -->
+  <section id="value" class="bg-gray-100 py-12 px-4 sm:px-6">
+    <div class="max-w-7xl mx-auto">
+      <h3 class="text-2xl font-semibold text-indigo-600">Additional Value</h3>
+      <div class="grid md:grid-cols-3 gap-6 mt-6">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-semibold mb-2">Learning Extras</h4>
+          <ul class="list-disc ml-6 text-sm space-y-1">
+            <li>Glossary of Backup & Storage terms</li>
+            <li>Cheat sheets (commands, error codes)</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-semibold mb-2">Downloadables</h4>
+          <p class="text-sm">Free PDFs & quick-reference cards for daily use.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-semibold mb-2">Stay Updated</h4>
+          <p class="text-sm">Subscribe to our weekly newsletter for tips, tools & updates.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Documentation Links -->
+  <section id="docs" class="py-12 px-4 sm:px-6">
+    <div class="max-w-7xl mx-auto">
+      <h3 class="text-2xl font-semibold text-indigo-600">Admin Documentation Links</h3>
+      <ul class="list-disc ml-6 mt-4 space-y-2 text-blue-600 underline text-sm sm:text-base">
+        <li><a href="https://www.veritas.com/support/en_US" target="_blank">Veritas NetBackup Docs</a></li>
+        <li><a href="https://documentation.commvault.com/" target="_blank">Commvault Documentation</a></li>
+        <li><a href="https://www.veeam.com/documentation-guides-datasheets.html" target="_blank">Veeam Docs</a></li>
+        <li><a href="https://www.dell.com/support/home/en-in/product-support/product/avamar-family/docs" target="_blank">Dell EMC Avamar Docs</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- YouTube Links -->
+  <section id="youtube" class="py-12 max-w-7xl mx-auto px-4 sm:px-6">
+    <h3 class="text-2xl font-semibold text-indigo-600">Popular YouTube Channels for Backup Learning</h3>
+    <ul class="list-disc ml-6 mt-4 space-y-2 text-blue-600 underline text-sm sm:text-base">
+      <li><a href="https://www.youtube.com/@veritastechnologies" target="_blank">Veritas Official</a></li>
+      <li><a href="https://www.youtube.com/c/Commvault" target="_blank">Commvault Official</a></li>
+      <li><a href="https://www.youtube.com/c/Veeam" target="_blank">Veeam Official</a></li>
+      <li><a href="https://www.youtube.com/results?search_query=avamar+dell" target="_blank">Avamar Official</a></li>
+      <li><a href="https://www.youtube.com/results?search_query=backup+administrator+tutorial" target="_blank">Community Tutorials</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-600 text-white text-center py-6 mt-8">
+    <p>© <span id="year"></span> Open_Source_<l style="color: red;">ಮಗ</l>. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile menu toggle
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+
+    // Chart.js Bar Chart for Backup Tools
+    const ctx = document.getElementById('toolsChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: [
+          'Veritas NetBackup',
+          'Commvault',
+          'Veeam',
+          'Dell EMC Avamar',
+          'IBM Spectrum Protect',
+          'Rubrik',
+          'Cohesity'
+        ],
+        datasets: [{
+          label: 'Market Share (%)',
+          data: [25, 20, 18, 15, 10, 7, 5],
+          backgroundColor: [
+            '#4F46E5',
+            '#06B6D4',
+            '#10B981',
+            '#F59E0B',
+            '#EF4444',
+            '#8B5CF6',
+            '#64748B'
+          ]
+        }]
+      },
+      options: {
+        responsive: true,
+        indexAxis: 'y',
+        scales: {
+          x: {
+            beginAtZero: true,
+            max: 30,
+            ticks: { stepSize: 5 }
+          }
+        },
+        plugins: {
+          legend: { display: false }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
